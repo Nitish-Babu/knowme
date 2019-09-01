@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navlist{
+    height: 10vh;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.nav-links {
+    text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 1px 15px;
+	border: 1px outset transparent;
+	line-height: 50px;
+	transition: 0.5s ease-out;
+
+}
+
+.home,
+.about,
+.contact{
+    height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.home {
+    background-image: url(../pic1.jpg); 
+}
+
+.about{
+    background-image: url(../about.jpg)
+}
+
+.contact{
+    background-image: url(../contact.jpg)
+}
+
+ul{
+	float: right;
+	list-style: none;
+	list-style-type: none;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 1px 15px;
+	border: 1px outset transparent;
+	line-height: 50px;
+	transition: 0.5s ease-out;
+}
+
+ul li a:hover
+{
+	background-color: black;
+	color: white;
+}
+
+ul li.active a
+{
+	background-color: black;
+	color: white;
+}
+
